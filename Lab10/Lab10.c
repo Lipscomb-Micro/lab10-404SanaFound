@@ -71,10 +71,10 @@ int main(void) {
 	
 	// Init UART0 for BT/UART path
 	uart0_init(BAUDRATE,DATABITS,STOPBITS,PARITY);
-	//while(1) {
-		//uart0_tx('a');
-		//_delay_ms(1000);
-	//}
+    while(1) {
+		uart0_tx('a');
+		_delay_ms(1000);
+	}
 	
 	send_string(resetMsg);
 	

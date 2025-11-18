@@ -10,7 +10,7 @@
  * used by other programs. After compiling this code, copy the
  * libUART0Library.a and UART0Library.h files to the project directory,
  * then add the library to the target project by R-clicking on the
- * project's Libraries directory and clicking Add Library. Also,
+ * project's Libraries directory and clicking Add Library. Also,'
  * the UART0Library.h file must be #included in the project's .c file.
  *
  * NOTE: This library only works with the default UART0 port on the
