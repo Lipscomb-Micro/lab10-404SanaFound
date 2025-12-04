@@ -59,5 +59,8 @@
 void uart_init(long unsigned int baudrate, unsigned char databits, unsigned char stopbits, unsigned char parity);
 void uart_tx(unsigned char data);
 unsigned char uart_rx(void);
+unsigned char uart_data_available(void){
+	return (UCSR1A & (1 << RXC1));
+}
 
 #endif /* UARTLIBRARY_H_ */

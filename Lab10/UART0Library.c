@@ -108,4 +108,4 @@ unsigned char uart0_rx(void)
 	
 	// put received char into data variable and return
 	return UDR0;
-}
+} 
